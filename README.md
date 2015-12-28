@@ -1,4 +1,4 @@
-## grunt-jsxdom [![Build Status](https://travis-ci.org/treycordova/grunt-jsxdom.svg?branch=master)](https://travis-ci.org/treycordova/grunt-jsxdom) [![Version Status](https://img.shields.io/npm/v/jsxdom.svg)](https://www.npmjs.org/package/grunt-jsxdom)
+## grunt-jsxdom [![Build Status](https://travis-ci.org/treycordova/grunt-jsxdom.svg?branch=master)](https://travis-ci.org/treycordova/grunt-jsxdom) [![Version Status](https://img.shields.io/npm/v/jsxdom-grunt.svg)](https://www.npmjs.org/package/grunt-jsxdom)
 #### Grunt task for jsxdom.
 
 ## Getting Started
