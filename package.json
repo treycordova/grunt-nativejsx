@@ -1,7 +1,7 @@
 {
   "name": "grunt-jsxdom",
   "description": "Grunt task for jsxdom.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/treycordova/grunt-jsxdom",
   "author": "Trey Cordova",
   "repository": {
