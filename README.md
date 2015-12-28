@@ -1,26 +1,20 @@
 ## grunt-jsxdom [![Build Status](https://travis-ci.org/treycordova/grunt-jsxdom.svg?branch=master)](https://travis-ci.org/treycordova/grunt-jsxdom) [![Version Status](https://img.shields.io/npm/v/jsxdom-grunt.svg)](https://www.npmjs.org/package/grunt-jsxdom)
 #### Grunt task for jsxdom.
 
-## Getting Started
+#### Installation
 This plugin requires Grunt `~0.4.5`
 
-If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
-
+Install `grunt-jsxdom` by running this command in your project folder:
 ```shell
 npm install grunt-jsxdom --save-dev
 ```
 
-Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
-
+Add this to your `Gruntfile.js`:
 ```js
 grunt.loadNpmTasks('grunt-jsxdom');
 ```
 
-## The "jsxdom" task
-
-### Overview
-In your project's Gruntfile, add a section named `jsxdom` to the data object passed into `grunt.initConfig()`.
-
+#### Configuration
 ```js
 grunt.initConfig({
   jsxdom: {
@@ -34,16 +28,7 @@ grunt.initConfig({
 });
 ```
 
-### Options
-
-#### options.variablePrefix
-Type: `String`
-Default value: `$$`
-
-A string value that represents that variable prefixes to append to jsxdom native DOM assignments.
-
-#### options.declarationType
-Type: `String` (`var` or `let`)
-Default value: `var`
-
-A string value that represents the type of declaration to use. Either `var` or `let`.
+##### Options
+- **options.declarationType**: Either `var` (default) or `let`.
+- **options.variablePrefix**: Any string (defaults to `$$`) you can conjure up that produces a _valid_ JavaScript variable.
+- **options.acorn**: All acorn options are available [here](https://github.com/ternjs/acorn#main-parser). Defaults to `{plugins: {jsx: true}}`.
