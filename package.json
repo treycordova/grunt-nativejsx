@@ -1,0 +1,51 @@
+{
+  "name": "grunt-jsxdom",
+  "description": "Grunt task for jsxdom.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/treycordova/grunt-jsxdom",
+  "author": "Trey Cordova",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treycordova/grunt-jsxdom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/treycordova/grunt-jsxdom/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/treycordova/grunt-jsxdom/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": "5.3"
+  },
+  "scripts": {
+    "test": "node --harmony_destructuring ./node_modules/.bin/grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-nodeunit": "^0.3.3"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "jsx",
+    "dom",
+    "jsxdom",
+    "grunt",
+    "plugin",
+    "transpiler",
+    "transpilation",
+    "react",
+    "vnode"
+  ],
+  "dependencies": {
+    "async": "^1.5.0",
+    "jsxdom": "^2.2.0"
+  }
+}
