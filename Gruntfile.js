@@ -1,6 +1,6 @@
 /*
- * grunt-jsxdom
- * https://github.com/treycordova/grunt-jsxdom
+ * grunt-nativejsx
+ * https://github.com/treycordova/grunt-nativejsx
  *
  * Copyright (c) 2015 Trey Cordova
  * Licensed under the MIT license.
@@ -25,7 +25,7 @@ module.exports = function(grunt) {
       tests: ['tmp']
     },
 
-    jsxdom: {
+    nativejsx: {
       variablePrefix: {
         options: {
           variablePrefix: '_'
@@ -55,6 +55,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-nodeunit');
 
-  grunt.registerTask('test', ['clean', 'jsxdom', 'nodeunit']);
+  grunt.registerTask('test', ['clean', 'nativejsx', 'nodeunit']);
   grunt.registerTask('default', ['jshint', 'test']);
 };

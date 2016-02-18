@@ -2,7 +2,7 @@
 
 let grunt = require('grunt');
 
-exports.jsxdom = {
+exports.nativejsx = {
   variablePrefix: function(test) {
     test.expect(1);
 

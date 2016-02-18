@@ -1,24 +1,24 @@
-## grunt-jsxdom [![Build Status](https://travis-ci.org/treycordova/grunt-jsxdom.svg?branch=master)](https://travis-ci.org/treycordova/grunt-jsxdom) [![Version Status](https://img.shields.io/npm/v/grunt-jsxdom.svg)](https://www.npmjs.org/package/grunt-jsxdom)
-#### Grunt task for [jsxdom](https://github.com/treycordova/jsxdom).
-Hello fellow Grunters, go hog-wild over this jsxdom Gruntjs plugin (*snorts*).
+## grunt-nativejsx [![Build Status](https://travis-ci.org/treycordova/grunt-nativejsx.svg?branch=master)](https://travis-ci.org/treycordova/grunt-nativejsx) [![Version Status](https://img.shields.io/npm/v/grunt-nativejsx.svg)](https://www.npmjs.org/package/grunt-nativejsx)
+#### Grunt task for [nativejsx](https://github.com/treycordova/nativejsx).
+Hello fellow Grunters, go hog-wild over this nativejsx Gruntjs plugin (*snorts*).
 
 #### Installation
 This plugin requires Grunt `~0.4.5`
 
-Install `grunt-jsxdom` by running this command in your project folder:
+Install `grunt-nativejsx` by running this command in your project folder:
 ```shell
-npm install grunt-jsxdom --save-dev
+npm install grunt-nativejsx --save-dev
 ```
 
 Add this to your `Gruntfile.js`:
 ```js
-grunt.loadNpmTasks('grunt-jsxdom');
+grunt.loadNpmTasks('grunt-nativejsx');
 ```
 
 #### Configuration
 ```js
 grunt.initConfig({
-  jsxdom: {
+  nativejsx: {
     options: {
       // Task-specific options go here.
     },

@@ -1,20 +1,20 @@
 {
-  "name": "grunt-jsxdom",
-  "description": "Grunt task for jsxdom.",
+  "name": "grunt-nativejsx",
+  "description": "Grunt task for nativejsx.",
   "version": "0.0.4",
-  "homepage": "https://github.com/treycordova/grunt-jsxdom",
+  "homepage": "https://github.com/treycordova/grunt-nativejsx",
   "author": "Trey Cordova",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/treycordova/grunt-jsxdom.git"
+    "url": "git+https://github.com/treycordova/grunt-nativejsx.git"
   },
   "bugs": {
-    "url": "https://github.com/treycordova/grunt-jsxdom/issues"
+    "url": "https://github.com/treycordova/grunt-nativejsx/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/treycordova/grunt-jsxdom/blob/master/LICENSE"
+      "url": "https://github.com/treycordova/grunt-nativejsx/blob/master/LICENSE"
     }
   ],
   "engines": {
@@ -36,7 +36,7 @@
   "keywords": [
     "jsx",
     "dom",
-    "jsxdom",
+    "nativejsx",
     "grunt",
     "plugin",
     "transpiler",
@@ -46,6 +46,6 @@
   ],
   "dependencies": {
     "async": "^1.5.0",
-    "jsxdom": "^2.2.0"
+    "nativejsx": "^3.0.0"
   }
 }
