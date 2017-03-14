@@ -2,7 +2,7 @@
  * grunt-nativejsx
  * https://github.com/treycordova/grunt-nativejsx
  *
- * Copyright (c) 2015 Trey Cordova
+ * Copyright (c) 2017 Trey Cordova
  * Licensed under the MIT license.
  */
 

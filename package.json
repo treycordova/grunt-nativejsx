@@ -1,7 +1,7 @@
 {
   "name": "grunt-nativejsx",
   "description": "Grunt task for nativejsx.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "homepage": "https://github.com/treycordova/grunt-nativejsx",
   "author": "Trey Cordova",
   "repository": {
@@ -18,10 +18,10 @@
     }
   ],
   "engines": {
-    "node": "5.3"
+    "node": "6.10.0"
   },
   "scripts": {
-    "test": "node --harmony_destructuring ./node_modules/.bin/grunt test"
+    "test": "node ./node_modules/.bin/grunt test"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
@@ -46,6 +46,6 @@
   ],
   "dependencies": {
     "async": "^1.5.0",
-    "nativejsx": "^3.0.0"
+    "nativejsx": "^4.0.0"
   }
 }
